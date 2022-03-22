@@ -1,0 +1,82 @@
+.signupSection {
+  height: 100vh;
+}
+.container {
+  margin: 0 50px;
+}
+.mainWrapper {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  box-shadow: 3px 3px 4px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background: linear-gradient(rgba(0, 117, 250, 0.5), transparent);
+}
+.formWrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  width: fit-content;
+}
+.signUpForm {
+  width: 290px;
+  padding: 10px 0;
+}
+.signUpForm h1 {
+  margin-bottom: 10px;
+}
+.chooseImgWrapper {
+  margin: 8px 0;
+}
+.customImgInput::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.customImgInput::before {
+  content: "Photo +";
+}
+.labelInputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.labelInputWrapper label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.labelInputWrapper .formInput {
+  outline: none;
+  /* border: 1px solid rgba(0, 0, 0, 0.4); */
+  background-color: transparent;
+  padding: 4px 3px;
+  font-size: 12px;
+  border-radius: 2px;
+  margin-bottom: 4px;
+}
+.labelInputWrapper .errorFormInput {
+  border: 1px solid red;
+}
+.errorsWrapper {
+  font-size: 11px;
+  margin-bottom: 8px;
+  color: red;
+}
+.btnWrapper {
+  padding: 14px 0;
+}
+.imageWrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+}
+.imageWrapper img {
+  width: 340px;
+}
+.header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
