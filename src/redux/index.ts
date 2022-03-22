@@ -34,7 +34,8 @@ const authSlice = createSlice({
       },
       action
     ) => {
-      (state.isAuthenticated = true),
+      
+      (state.isAuthenticated = true);
         (state.userDetails = {
           userAvatar: action.payload.profilePic,
           userName: action.payload.name,
