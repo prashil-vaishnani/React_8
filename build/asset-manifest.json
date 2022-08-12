@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19ba227a.css",
+    "main.js": "/static/js/main.1b5143c5.js",
+    "static/media/woman_icon.png": "/static/media/woman_icon.b4d9cd57c11f97eb9a0e.png",
+    "index.html": "/index.html",
+    "main.19ba227a.css.map": "/static/css/main.19ba227a.css.map",
+    "main.1b5143c5.js.map": "/static/js/main.1b5143c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19ba227a.css",
+    "static/js/main.1b5143c5.js"
+  ]
+}
